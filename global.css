@@ -1,0 +1,111 @@
+/* Variáveis CSS */
+:root {
+    --cor-fundo: #fafaf8;
+    --cor-escuro: #0f0f0f;
+    --cor-texto: #1a1a1a;
+    --cor-text-suave: #555;
+    --cor-cinza: #888;
+    --cor-borda: #e8e8e4;
+    --cor-principal: #e85d26;
+    --cor-principal-clara: #fde8dc;
+    --cor-principal-hover: #cf4e1e;
+    --cor-sucesso: #22c55e;
+    --cor-erro: #ef4444;
+    --cor-aviso: #f59e0b;
+
+    --fonte-titulo: serif;
+    --fonte-corpo: sans-serif;
+
+    --espaco-xs: 4px;
+    --espaco-sm: 8px;
+    --espaco-md: 16px;
+    --espaco-lg: 24px;
+    --espaco-xl: 40px;
+    --espaco-2xl: 60px;
+
+    --raio: 12px;
+    --raio-sm: 8px;
+    --raio-pilula: 100px;
+
+    --sombra-sm: 0 2px 8px rgba(0,0,0, 0.06);
+    --sombra-md: 0 4px 24px rgba(0,0,0, 0.1);
+    --sombra-lg: 0 12px 48px rgba(0,0,0, 0.14);
+
+    --transicao: 0.5s ease;
+}
+
+/* Zerando os estilos do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--fonte-corpo);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+/* Cabeçalho Global */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background-color: var(--cor-fundo);
+    border-bottom: 1px solid var(--cor-borda);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-family: var(--fonte-titulo);
+    font-size: 26px;
+    color: var(--cor-texto);
+    font-weight: 700;
+}
+
+.logo span{
+    color: var(--cor-principal);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-lista {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cor-text-suave);
+    transition: color var(--transicao);
+}
+
+.nav-link:hover{
+    color: var(--cor-principal);
+}
+
+
+/* Rodapé Global */
