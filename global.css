@@ -109,3 +109,97 @@ a {
 
 
 /* Rodapé Global */
+.rodape {
+    background-color: var(--cor-escuro);
+    color: var(--cor-cinza);
+    text-align: center;
+    padding: 48px 20 px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.rodape-container {
+    display: grid;
+    grid-template-columns: 1.8fr 0.9fr 0.9fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    border-bottom: 1.5px solid var(--cor-cinza);
+}
+
+.rodape-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.rodape-logo {
+    font-family: var(--fonte-titulo);
+    font-size: 28px;
+    color: #fafaf8;
+    font-weight: 700;
+}
+
+.rodape-logo span {
+    color: var(--cor-principal);
+}
+.rodape-sub {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 360px;
+}
+.rodape-redes {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rodape-redes a{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #18181c;
+    border: 1px solid #2d2d30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b3b3b7;
+    font-size: 15px;
+    transition: all var(--transicao);
+}
+
+.rodape-redes a:hover{
+    background-color: var(--cor-principal);
+    color: #fafaf8;
+    border-color: var(--cor-principal);
+    transform: translateY(-2px);
+}
+
+.rodape-links h4{
+    font-size: 20px;
+    color: var(--cor-principal-clara);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.rodape-links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12;
+    line-height: 2;
+}
+
+.rodape-links ul a{
+    font-size: 18px;
+    color: #8f8f94;
+    transition: all var(--transicao);
+}
+
+.rodape-links ul a:hover{
+    color: var(--cor-principal);
+}
