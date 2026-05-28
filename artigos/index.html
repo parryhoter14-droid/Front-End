@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBlog - Arigos</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="index.html" class="logo">
+            Dev<span>Blog</span>
+        </a>
+
+        <nav class="navbar">
+           <ul class="nav-lista">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li><a href="artigos/index.html" class="nav-link">Artigos</a></li>
+            <li><a href="#sobre" class="nav-link">Sobre</a></li>
+            <li><a href="#contato" class="nav-link">Contato</a></li>
+           </ul>
+           
+           <a href="auth/login/index.html" class="btn-login">Login</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="artigos-banner">
+            <span class="artigos-banner-tag">Todos os Artigos</span>
+            <h1 class="artigos-banner-titulo">
+                Conteúdo para<br>devs que evoluem
+            </h1>
+            <p class="artigos-banner-sub">
+                HTML, CSS, JavaScript e muito mais - escrito por 
+                quem está na prática, para quem está começando
+            </p>
+            <div class="banner-numero-fundo">24</div>
+        </section>
+
+        <div class="artigos-controles">
+            <div class="busca-container">
+                <span class="busca-icone">
+                    <i class="fab fa-search" aria-hidden="true"></i>
+                </span>
+
+                <input type="text" class="busca-input" placeholder="Buscar Artigos...">
+
+
+            </div>
+
+            <div class="filtro-lista">
+                <button class="filtro-btn">Todos</button>
+                <button class="filtro-btn">HTML</button>
+                <button class="filtro-btn">CSS</button>
+                <button class="filtro-btn">JavaScript</button>
+                <button class="filtro-btn">Carreira</button>
+                <button class="filtro-btn">Projeto</button>
+                <button class="filtro-btn">Dicas</button>
+            </div>
+        </div>
+
+        <section class="artigos-grid-container">
+            <p class="clasartigos-grid-titulo">24 artigos publicados</p>
+
+            <div class="artigos-grid">
+
+                <article class="artigo-card destaque">
+                    <div class="artigo-card-imagem">
+                        <div class="artigo-card-imagem-placeholder">HTML</div>
+                    </div>
+
+                    <div class="artigo-card-corpo">
+                        <span class="badge badge-laranja">
+                            <i class="fab fa-html5" aria-hidden="true"></i>
+                            HTML
+                            h2
+                        </span>
+                        <h2 class="artigo-card-titulo">
+                            O que é o HTML e por que ele é a base de tudo na Web?
+                        </h2>
+                        <p class="artigo-card-texto text-3-linhas">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, rerum tenetur nesciunt alias recusandae, commodi veniam doloribus voluptas deleniti quam hic, quos corrupti nemo. Nobis labore aliquid accusamus id molestias?
+                            Dicta, distinctio excepturi a cumque illo tempora aperiam saepe consectetur alias fugiat provident fuga, optio, quae fugit aspernatur ullam eaque. Alias iure accusantium sapiente adipisci eaque ut cumque provident error.
+                            Sunt, quibusdam repudiandae? Cum earum fugiat aliquid, laborum iusto error rerum id? Perspiciatis dolorum quis unde, mollitia aliquam distinctio repellat, aliquid voluptate voluptas maiores nesciunt velit perferendis provident atque beatae.
+                        </p>
+
+                        <div class="artigo-card-rodape">
+                            <span class="artigo-card-meta">
+                                 <i class="fa fa-calendar" aria-hidden="true"></i>
+                                 25 mai. 2026 •
+                                 <i class="fa fa-clock" aria-hidden="true"></i>
+                                 4 min
+                            </span>
+                            <a href="#" class="artigo-card-link">Ler artigo <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-container">
+            <div class="rodape-info">
+            <p class="rodape-logo">Dev<span>Blog</span></p>
+            <p class="rodape-sub">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur earum magnam dicta quasi iure nobis, dolorem nihil architecto cum quis alias velit, molestias odio debitis temporibus dignissimos ullam aut!</p>
+
+            <div class="rodape-redes">
+                 <a href="#"><i class="fab fa-github" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </div>
+           
+        </div>
+        <div class="rodape-links">
+            <h4>NAVEGAÇÃO</h4>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="artigos/indeix,html">Artigos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contatos</a></li>
+            </ul>
+        </div>
+
+        <div class="rodape-links">
+            <h4>ADMIN</h4>
+            <ul>
+                <li><a href="auth/login/index.html">Login Admin</a></li>
+                <li><a href="auth/cadastro/index.html">Criar Conta</a></li>
+                <li><a href="admin/index.html">Dashboard</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="rodape-copy">
+        <p> &copy; 2026 - Todos os direitos reservados</p>
+    </div>
+    </footer>
+
+</body>
+</html>

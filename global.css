@@ -151,6 +151,7 @@ a {
     font-size: 14px;
     line-height: 1.6;
     max-width: 360px;
+    margin-bottom: 10px;
 }
 .rodape-redes {
     display: flex;
